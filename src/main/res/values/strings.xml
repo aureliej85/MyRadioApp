@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Radio App</string>
+    <string name="notification_title">My Radio App</string>
+    <string name="default_notification_channel_id">paradise</string>
+    <string name="appelez_nous">Appelez-nous</string>
+    <string name="ecrivez_nous">Ecrivez-nous</string>
+    <string name="conception_85media_fr">Conception: 85media.fr</string>
+</resources>

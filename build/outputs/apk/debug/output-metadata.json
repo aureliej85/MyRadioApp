@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "fr.media85.myradioapp",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 6,
+      "versionName": "2.0",
+      "enabled": true,
+      "outputFile": "app-debug.apk"
+    }
+  ]
+}

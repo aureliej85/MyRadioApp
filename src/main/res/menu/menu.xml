@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/phone"
+        android:icon="@drawable/ic_baseline_call_24"
+        android:title="Appelez-nous"
+        app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/mail"
+        android:icon="@drawable/ic_baseline_email_24"
+        android:title="Ecrivez-nous"
+        app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/infos"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Infos"
+        app:showAsAction="never"></item>
+</menu>

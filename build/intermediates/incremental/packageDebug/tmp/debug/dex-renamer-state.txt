@@ -1,0 +1,4 @@
+#Tue Sep 15 10:33:10 CEST 2020
+base.0=/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

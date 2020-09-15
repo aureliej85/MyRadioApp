@@ -1,0 +1,269 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="fr.media85.myradioapp"
+4    android:versionCode="6"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:7:5-68
+12-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:7:22-65
+13    <uses-permission android:name="android.permission.DEVICE_POWER" />
+13-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:8:5-9:47
+13-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:8:22-68
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:10:5-76
+14-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:10:22-74
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:11:5-79
+15-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:11:22-76
+16
+17    <!-- Required by older versions of Google Play services to create IID tokens -->
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-iid:20.2.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/f664dd6348b9e6a7bebcc59e99301373/jetified-firebase-iid-20.2.3/AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-iid:20.2.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/f664dd6348b9e6a7bebcc59e99301373/jetified-firebase-iid-20.2.3/AndroidManifest.xml:26:22-79
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:22-107
+20
+21    <application
+21-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:15:5-51:19
+22        android:allowBackup="true"
+22-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:16:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.3.1] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/980630e158f38ced2d00e440ae193d30/core-1.3.1/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:17:9-43
+26        android:label="@string/app_name"
+26-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:18:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:19:9-54
+28        android:supportsRtl="true"
+28-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:20:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme"
+30-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:22:9-40
+31        android:usesCleartextTraffic="true" >
+31-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:21:9-44
+32        <activity
+32-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:25:9-32:20
+33            android:name="fr.media85.myradioapp.SplashActivity"
+33-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:25:19-70
+34            android:noHistory="true"
+34-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:25:106-130
+35            android:screenOrientation="portrait"
+35-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:25:131-167
+36            android:theme="@style/SplashStyle" >
+36-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:25:71-105
+37            <intent-filter>
+37-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:27:13-31:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:28:17-69
+38-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:28:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:30:17-77
+40-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:30:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:34:9-36:20
+44            android:name="fr.media85.myradioapp.MainActivity"
+44-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:34:19-68
+45            android:screenOrientation="portrait" >
+45-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:34:69-105
+46        </activity>
+47
+48        <service
+48-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:39:9-45:19
+49            android:name="fr.media85.myradioapp.Notifications"
+49-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:40:13-63
+50            android:exported="false" >
+50-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:41:13-37
+51            <intent-filter>
+51-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:42:13-44:29
+52                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+52-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:43:17-78
+52-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:43:25-75
+53            </intent-filter>
+54        </service>
+55        <service
+55-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:47:9-49:38
+56            android:name="fr.media85.myradioapp.MediaPlayerService"
+56-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:47:18-73
+57            android:enabled="true"
+57-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:48:13-35
+58            android:exported="true" />
+58-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:49:13-36
+59
+60        <!--
+61             FirebaseMessagingService performs security checks at runtime,
+62             but set to not exported to explicitly avoid allowing another app to call it.
+63        -->
+64        <service
+64-->[com.google.firebase:firebase-messaging:20.2.4] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/a09ee83e403354c89c3f4b21a1fe3504/jetified-firebase-messaging-20.2.4/AndroidManifest.xml:28:9-35:19
+65            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+65-->[com.google.firebase:firebase-messaging:20.2.4] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/a09ee83e403354c89c3f4b21a1fe3504/jetified-firebase-messaging-20.2.4/AndroidManifest.xml:29:13-82
+66            android:directBootAware="true"
+66-->[com.google.firebase:firebase-messaging:20.2.4] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/a09ee83e403354c89c3f4b21a1fe3504/jetified-firebase-messaging-20.2.4/AndroidManifest.xml:30:13-43
+67            android:exported="false" >
+67-->[com.google.firebase:firebase-messaging:20.2.4] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/a09ee83e403354c89c3f4b21a1fe3504/jetified-firebase-messaging-20.2.4/AndroidManifest.xml:31:13-37
+68            <intent-filter android:priority="-500" >
+68-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:42:13-44:29
+69                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+69-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:43:17-78
+69-->/Users/aurelie/OneDrive/Documents/DEVS/ANDROID/PROJETS OPEN SOURCE/MY RADIO APP/app/src/main/AndroidManifest.xml:43:25-75
+70            </intent-filter>
+71        </service>
+72        <service
+72-->[com.google.firebase:firebase-messaging:20.2.4] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/a09ee83e403354c89c3f4b21a1fe3504/jetified-firebase-messaging-20.2.4/AndroidManifest.xml:36:9-42:19
+73            android:name="com.google.firebase.components.ComponentDiscoveryService"
+73-->[com.google.firebase:firebase-messaging:20.2.4] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/a09ee83e403354c89c3f4b21a1fe3504/jetified-firebase-messaging-20.2.4/AndroidManifest.xml:37:13-84
+74            android:directBootAware="true"
+74-->[com.google.firebase:firebase-common:19.3.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+75            android:exported="false" >
+75-->[com.google.firebase:firebase-messaging:20.2.4] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/a09ee83e403354c89c3f4b21a1fe3504/jetified-firebase-messaging-20.2.4/AndroidManifest.xml:38:13-37
+76            <meta-data
+76-->[com.google.firebase:firebase-messaging:20.2.4] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/a09ee83e403354c89c3f4b21a1fe3504/jetified-firebase-messaging-20.2.4/AndroidManifest.xml:39:13-41:85
+77                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+77-->[com.google.firebase:firebase-messaging:20.2.4] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/a09ee83e403354c89c3f4b21a1fe3504/jetified-firebase-messaging-20.2.4/AndroidManifest.xml:40:17-119
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-messaging:20.2.4] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/a09ee83e403354c89c3f4b21a1fe3504/jetified-firebase-messaging-20.2.4/AndroidManifest.xml:41:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-iid:20.2.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/f664dd6348b9e6a7bebcc59e99301373/jetified-firebase-iid-20.2.3/AndroidManifest.xml:32:13-34:85
+80                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+80-->[com.google.firebase:firebase-iid:20.2.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/f664dd6348b9e6a7bebcc59e99301373/jetified-firebase-iid-20.2.3/AndroidManifest.xml:33:17-96
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-iid:20.2.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/f664dd6348b9e6a7bebcc59e99301373/jetified-firebase-iid-20.2.3/AndroidManifest.xml:34:17-82
+82            <meta-data
+82-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/35f10b9aa3282e0c4ce3ae644ab33b75/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:30:13-32:85
+83                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+83-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/35f10b9aa3282e0c4ce3ae644ab33b75/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:31:17-139
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/35f10b9aa3282e0c4ce3ae644ab33b75/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:32:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/ec6ed60bc769c1397d2bb4044e417511/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+86                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+86-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/ec6ed60bc769c1397d2bb4044e417511/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/ec6ed60bc769c1397d2bb4044e417511/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-installations:16.3.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/1d3330b642962cbb46db7e48ab6d55d2/jetified-firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
+89                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+89-->[com.google.firebase:firebase-installations:16.3.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/1d3330b642962cbb46db7e48ab6d55d2/jetified-firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-installations:16.3.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/1d3330b642962cbb46db7e48ab6d55d2/jetified-firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
+91        </service>
+92
+93        <receiver
+93-->[com.google.firebase:firebase-iid:20.2.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/f664dd6348b9e6a7bebcc59e99301373/jetified-firebase-iid-20.2.3/AndroidManifest.xml:37:9-44:20
+94            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+94-->[com.google.firebase:firebase-iid:20.2.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/f664dd6348b9e6a7bebcc59e99301373/jetified-firebase-iid-20.2.3/AndroidManifest.xml:38:13-78
+95            android:exported="true"
+95-->[com.google.firebase:firebase-iid:20.2.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/f664dd6348b9e6a7bebcc59e99301373/jetified-firebase-iid-20.2.3/AndroidManifest.xml:39:13-36
+96            android:permission="com.google.android.c2dm.permission.SEND" >
+96-->[com.google.firebase:firebase-iid:20.2.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/f664dd6348b9e6a7bebcc59e99301373/jetified-firebase-iid-20.2.3/AndroidManifest.xml:40:13-73
+97            <intent-filter>
+97-->[com.google.firebase:firebase-iid:20.2.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/f664dd6348b9e6a7bebcc59e99301373/jetified-firebase-iid-20.2.3/AndroidManifest.xml:41:13-43:29
+98                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+98-->[com.google.firebase:firebase-iid:20.2.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/f664dd6348b9e6a7bebcc59e99301373/jetified-firebase-iid-20.2.3/AndroidManifest.xml:42:17-81
+98-->[com.google.firebase:firebase-iid:20.2.3] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/f664dd6348b9e6a7bebcc59e99301373/jetified-firebase-iid-20.2.3/AndroidManifest.xml:42:25-78
+99            </intent-filter>
+100        </receiver>
+101        <receiver
+101-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:29:9-33:20
+102            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+102-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:30:13-85
+103            android:enabled="true"
+103-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:31:13-35
+104            android:exported="false" >
+104-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:32:13-37
+105        </receiver>
+106
+107        <service
+107-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:35:9-38:40
+108            android:name="com.google.android.gms.measurement.AppMeasurementService"
+108-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:36:13-84
+109            android:enabled="true"
+109-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:37:13-35
+110            android:exported="false" />
+110-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:38:13-37
+111        <service
+111-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:39:9-43:72
+112            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+112-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:40:13-87
+113            android:enabled="true"
+113-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:41:13-35
+114            android:exported="false"
+114-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:42:13-37
+115            android:permission="android.permission.BIND_JOB_SERVICE" />
+115-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:43:13-69
+116
+117        <provider
+117-->[com.google.firebase:firebase-common:19.3.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+118            android:name="com.google.firebase.provider.FirebaseInitProvider"
+118-->[com.google.firebase:firebase-common:19.3.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+119            android:authorities="fr.media85.myradioapp.firebaseinitprovider"
+119-->[com.google.firebase:firebase-common:19.3.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+120            android:exported="false"
+120-->[com.google.firebase:firebase-common:19.3.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+121            android:initOrder="100" />
+121-->[com.google.firebase:firebase-common:19.3.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+122
+123        <activity
+123-->[com.google.android.gms:play-services-base:17.0.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/9d9f5eefb5bcc469207d44112eb03d4a/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+124            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+124-->[com.google.android.gms:play-services-base:17.0.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/9d9f5eefb5bcc469207d44112eb03d4a/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-base:17.0.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/9d9f5eefb5bcc469207d44112eb03d4a/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+126-->[com.google.android.gms:play-services-base:17.0.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/9d9f5eefb5bcc469207d44112eb03d4a/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:17.0.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:17.0.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:17.0.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+131
+132        <service
+132-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/8e8493fc4060d1a9e60e0e8b89d28daa/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+133            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+133-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/8e8493fc4060d1a9e60e0e8b89d28daa/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+134            android:exported="false" >
+134-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/8e8493fc4060d1a9e60e0e8b89d28daa/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+135            <meta-data
+135-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/8e8493fc4060d1a9e60e0e8b89d28daa/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+136                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+136-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/8e8493fc4060d1a9e60e0e8b89d28daa/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+137                android:value="cct" />
+137-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/8e8493fc4060d1a9e60e0e8b89d28daa/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+138        </service>
+139        <service
+139-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/09a4bf673ec4891d08a21c203c688e10/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+140            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+140-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/09a4bf673ec4891d08a21c203c688e10/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+141            android:exported="false"
+141-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/09a4bf673ec4891d08a21c203c688e10/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+142            android:permission="android.permission.BIND_JOB_SERVICE" >
+142-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/09a4bf673ec4891d08a21c203c688e10/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+143        </service>
+144
+145        <receiver
+145-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/09a4bf673ec4891d08a21c203c688e10/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+146            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+146-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/09a4bf673ec4891d08a21c203c688e10/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+147            android:exported="false" />
+147-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/aurelie/.gradle/caches/transforms-2/files-2.1/09a4bf673ec4891d08a21c203c688e10/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+148    </application>
+149
+150</manifest>

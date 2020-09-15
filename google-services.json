@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "922785068495",
+    "firebase_url": "https://paradise-radio-64983.firebaseio.com",
+    "project_id": "paradise-radio-64983",
+    "storage_bucket": "paradise-radio-64983.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922785068495:android:6c1be5030eac87eb168eba",
+        "android_client_info": {
+          "package_name": "fr.media85.myradioapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922785068495-fgm1megb3pmtqdv4igocp4v33519e9fh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVemktYK4ak0YPqMtHfSh1hgVEQy6zPHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922785068495-fgm1megb3pmtqdv4igocp4v33519e9fh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
